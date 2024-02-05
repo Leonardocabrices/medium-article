@@ -1,0 +1,103 @@
+
+body {
+  background-color: lemonchiffon;
+  color: black;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'helvetica', serif;
+  margin: 0;
+}
+h1, h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+
+}
+#slogan{
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  font-family: helvetica;
+}
+p{
+  text-align: justify;
+}
+#sinopsis{
+  color: rgb(20, 20, 17);
+  text-shadow: 1px 1px 2px white;
+}
+a {
+  text-decoration: none;
+  color: #4352A1;
+}
+
+
+.banner {
+  background-image: url('/medium-article/emotions-3459666_1280.jpg');
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+.banner h1 {
+  font-size: 38px;
+}
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+.link-medium {
+  background-image: linear-gradient(to bottom, rgb(68, 231, 125), rrgb(41, 235, 109) );
+  color: black;
+  font-weight: lighter;
+  font-size: 25px;
+  text-shadow: 1px 1px 2px white;
+  font-style: italic;
+}
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgb(235, 125, 34), rgb(216, 212, 0));
+}
+
+li, i {
+  font-size: 25px;
+  color: #4352A1;
+  display: inline-block;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+li, i, a:hover {
+  color: #000311;
+}
+
+
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
